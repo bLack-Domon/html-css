@@ -1,0 +1,91 @@
+/* Reset some default styles for cleaner rendering */
+body,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style for the header/navbar */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center; /* Center-align the content */
+}
+
+/* Style for the header contents */
+header .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center-align horizontally */
+}
+
+.img {
+  border-radius: 45px;
+  background-color: #555;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px; /* Add some space between elements */
+}
+
+header h2 {
+  font-size: 24px;
+}
+
+/* Style for the navigation menu */
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Style for the sidebar */
+aside {
+  background-color: #555;
+  color: #fff;
+  width: 250px;
+  padding: 20px;
+  float: left;
+}
+
+aside ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+aside li {
+  margin-bottom: 10px;
+}
+
+aside a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Style for the main content area */
+main {
+  padding: 20px;
+  margin-left: 270px;
+}
+
+/* Style for the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  clear: both;
+  padding: 10px;
+}
